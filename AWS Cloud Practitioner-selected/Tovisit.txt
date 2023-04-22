@@ -1,0 +1,42 @@
+
+
+Glue
+CloudSearch
+Data Pipeline
+Fargate
+Elastic Beanstalk
+
+AWS System Manager
+B. AWS Professional Services
+B. AWS Professional Services
+A. AWS Trusted Advisor
+B. AWS Professional Services
+C. AWS Systems Manager
+D. AWS Partner Network (APN)
+E. AWS Secrets Manager
+ 
+https://aws.amazon.com/compliance/shared-responsibility-model/
+https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html
+https://aws.amazon.com/server-migration-service/faqs/
+https://aws.amazon.com/server-migration-service/faqs/
+https://aws.amazon.com/solutions/aws-landing-zone/
+
+AWS Enterprise Support Concierge 
+https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf
+https://aws.amazon.com/premiumsupport/knowledge-center/ec2-ri-consolidated-billing/
+https://aws.amazon.com/premiumsupport/technology/trusted-advisor/best-practice-checklist/
+
+
+https://aws.amazon.com/cloudfront/faqs/
+https://docs.aws.amazon.com/kms/latest/developerguide/control-access.html
+https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managingcosts.html
+
+https://aws.amazon.com/directconnect
+Explanation: https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html 
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-region.html
+https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf
+https://aws.amazon.com/datapipeline/faqs/
+: https://aws.amazon.com/aws-cost-management/aws-cost-explorer/ 
+Explanation: https://aws.amazon.com/premiumsupport/plans/ 
+https://aws.amazon.com/premiumsupport/technology/trusted-advisor/best-practice-checklist/
+https://aws.amazon.com/compliance/data-center/controls/

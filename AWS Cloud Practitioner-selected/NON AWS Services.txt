@@ -1,0 +1,9 @@
+No AWS Concierge
+No AWS Service Catalogue
+No AWS Lumberyard
+No AWS Partner Network Technology Partners
+No AWS Service Health Dashboard
+No AWS Connnect
+No AWS Quicksite
+No AWS Cost Eliminator
+

@@ -1,0 +1,192 @@
+1  IAM keys review
+
+7  Shared Security Model
+
+21  AWS Suppport PLans
+Cost Explorer
+Organizations
+Trusted Advisor	
+AWS Artifact
+AWS Concierge
+
+25 AWS Personal Health Dashboard
+AWS Partner Network Consulting Partners
+Network TEchnology Partners?
+
+28 Read more about this from link
+Customer can do Pen testing for 8 services w/o AWS Support approval
+
+Appstream
+Athena for billing report?
+33 AWS Cloud ARchitecture Design Principles
+implement loose coupling
+
+37 ARchitectural Design Principles
+
+39 ? Amazon manages the maintenance of the OS
+
+41  Amazon Direct Connect
+    AWS VPN
+
+42  Which services use Edge Locations
+CloudFront and EC2  
+What is Amazon Shield
+
+43  Provides Network connectivity in a hybrid architecture that includes AWS Cloud
+Amazon VPC & not Direct Connect
+
+45 See other Shared Security question #7 revisit, pretty sure it is wrong
+
+46 Blogs and Classroom Training
+
+Read about the Organizations tool
+
+48 Billing  time
+EC2 apparently rounds to the minute even on Linux, what about windows, to the hour?
+
+49 Which of the AWS services provide Compute resources
+Lambda
+ECS
+
+BUt not Glacier?   
+Nor codedeploy or Organizations
+
+50 Amazon Virtual Private Cloud (VPC) Dashboard?
+
+Amazon Inspector
+AWS Cert Manager
+AWS Artifact
+
+56 Shared responsibility for Data Encrypted at rest EC2 item maintenance and security
+?AWS for a self-hosted database that requires a nightly shut-down for maintenance and cost saving purposes 
+
+59 ? What
+59) Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO.) 
+A. Patching databases software 
+B. Testing application releases 
+C. Backing up databases 
+D. Creating database schema 
+E. Running penetration tests 
+B and E
+
+62) Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs? 
+A. Enterprise 
+B. Business 
+C. Developer 
+D. Basic 
+
+Correct Answer: B Explanation: https://aws.amazon.com/premiumsupport/plans/
+
+ 
+66) What can AWS edge locations be used for? (Select TWO.) 
+A. Hosting applications 
+B. Delivering content closer to users 
+C. Running NoSQL database caching services WTH  
+D. Reducing traffic on the server by caching responses  better answer for both NoSQL and RDS SQL 
+E. Sending notification messages to end users 
+Correct Answer: BD 
+ 
+69) Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two.) 
+A. There are no upfront commitments.     I think this is right
+B. AWS manages all security in the cloud.   *I think this is wrong 
+C. Users have the ability to provision resources on demand.   YES
+D. Users have access to free and unlimited storage. 
+E. Users have control over the physical infrastructure. 
+Correct Answer: BC 
+
+>>What services Infrastructure as Code
+
+72) Which AWS services should be used for read/write of constantly changing data? (Select TWO.) 
+A. Amazon Glacier 
+B. Amazon RDS   
+C. AWS Snowball 
+D. Amazon Redshift   Relational so not constant change 
+E. Amazon EFS        Versioning
+Correct  Answer: BE 
+
+
+73) What is one of the advantages of the Amazon Relational Database Service (Amazon RDS)? 
+A. It simplifies relational database administration tasks. 
+B. It provides 99.99999999999% reliability and durability. 
+C. It automatically scales databases for loads. 
+D. It enabled users to dynamically adjust CPU and RAM resources. 
+
+Correct Answer: A Explanation: In the main RDS page though, Lower administrative burden is listed as part of the benefits. https://aws.amazon.com/rds/ 
+
+75) An administrator needs to rapidly deploy a popular IT solution and start using it immediately. 
+Where can the administrator find assistance? 
+A. AWS Well-Architected Framework documentation 
+B. Amazon CloudFront 
+C. AWS CodeCommit 
+D. AWS Quick Start reference deployments  READ ABOUT THIS
+
+Correct Answer: D Explanation: Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability. These accelerators reduce hundreds of manual procedures into just a few steps, so you can build your production environment quickly and start using it immediately
+Serverless platform includes: 
+AWS lambda, 
+Amazon S3, 
+DynamoDB, 
+API gateway, 
+Amazon SNS, 
+AWS step functions, 
+Amazon kinesis 
+and developing tools and services. 
+
+AWS MOBILE HUB?
+
+IMPORTANT:  SNS is Serverless where SQS is not
+
+Amazon Guard Duty
+Amazon Inspector
+AWS Config
+
+81) Which service enables customers to audit and monitor changes in AWS resources? 
+A. AWS Trusted Advisor 
+B. Amazon GuardDuty 
+C. Amazon Inspector 
+D. AWS Config 
+Correct Answer: D Explanation: AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations. With Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines. This enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting. Reference: https://aws.amazon.com/config/ 
+
+82) What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several 
+specialty practice areas? 
+A. AWS Enterprise Support 
+B. AWS Solutions Architects 
+C. AWS Professional Services 
+D. AWS Account Managers 
+
+Correct Answer: C Explanation: https://aws.amaz
+on.com/professional-services/ 
+
+91) Which AWS service allows companies to connect an Amazon VPC to an on-premises data center? 
+A. AWS VPN 
+B. Amazon Redshift 
+C. API Gateway 
+D. Amazon Direct Connect 
+Correct Answer: D Explanation: 
+AWS Direct Connect enables you to securely connect your AWS environment to your onpremises data center or office location over a standard 1 gigabit or 10 gigabit Ethernet fiberoptic connection. AWS Direct Connect offers dedicated high speed, low latency connection, which bypasses internet service providers in your network path. An AWS Direct Connect location provides access to Amazon Web Services in the region it is associated with, as well as access to other US regions. AWS Direct Connect allows you to logically partition the fiber-optic connections into multiple logical connections called Virtual Local Area Networks (VLAN). You can take advantage of these logical connections to improve security, differentiate traffic, and achieve compliance requirements. Reference: https://aws.amazon.com/getting-started/projects/connect-data-center-to-aws/ 
+
+AWS Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you. While the Service Health Dashboard displays the 
+
+ 
+>>Personal Health Dashboard gives you a personalized view into the performance and availability of the AWS services underlying your AWS resources. 
+
+
+94) Which of the following are categories of AWS Trusted Advisor? (Select TWO.) 
+A. Fault Tolerance 
+B. Instance Usage 
+C. Infrastructure 
+D. Performance 
+E. Storage Capacity 
+Correct Answer: AD 
+Explanation: Like your customized cloud expert, AWS Trusted Advisor analyzes your AWS environment and provides best practice recommendations in five categories: cost optimization, performance, security, fault tolerance and service limits. Reference: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+
+95) What is the benefit of using AWS managed services, such as Amazon ElastiCache and Amazon Relational Database 
+Service (Amazon RDS)? 
+A. They require the customer to monitor and replace failing instances. 
+B. They have better performance than customer-managed services. 
+C. They simplify patching and updating underlying OSs. 
+D. They do not require the customer to optimize instance type or size selections. 
+Correct Answer: D 
+Explanation: https://aws.amazon.com/rds/instance-types/ 
+
+What is Amazon PinPOint
+ 
